@@ -1,4 +1,4 @@
-host: khemenu.thoth-station.ninja
+host: test.thoth-station.ninja
 tls_verify: false
 requirements_format: pipenv
 
@@ -14,7 +14,3 @@ managers:
   - name: thoth-advise
     configuration:
       labels: [bot, kebechet]
-  - name: version
-    configuration:
-      labels: [bot, kebechet]
-      changelog_file: true
