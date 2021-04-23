@@ -1,4 +1,4 @@
-host: user-api-thoth-test-core.apps.zero.massopen.cloud
+host: test.thoth-station.ninja
 tls_verify: false
 requirements_format: pipenv
 
