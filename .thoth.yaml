@@ -14,3 +14,6 @@ managers:
   - name: thoth-advise
     configuration:
       labels: [bot, kebechet]
+  - name: update
+    configuration:
+      labels: [bot]
