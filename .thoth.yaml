@@ -1,19 +1,16 @@
-host: test.thoth-station.ninja
-tls_verify: true
+host: khemenu.thoth-station.ninja
+tls_verify: false
 requirements_format: pipenv
 
 runtime_environments:
-  - name: fedora:32
+  - name: default
     operating_system:
-      name: fedora
-      version: "32"
+      name: ubi
+      version: "8"
     python_version: "3.8"
     recommendation_type: latest
 
 managers:
   - name: thoth-advise
-    configuration:
-      labels: [bot, kebechet]
-  - name: update
     configuration:
       labels: [bot]
