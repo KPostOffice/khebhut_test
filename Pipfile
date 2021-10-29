@@ -10,3 +10,8 @@ click = "*"
 
 [requires]
 python_version = "3.8"
+
+[thoth]
+disable_index_adjustment = false
+
+[thoth.allow_prereleases]
