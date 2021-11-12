@@ -14,3 +14,9 @@ managers:
   - name: thoth-advise
     configuration:
       labels: [bot, kebechet]
+  - name: version
+    configuration:
+      maintainers:
+        - KPostOffice
+      labels: [bot]
+      changelog_file: true
