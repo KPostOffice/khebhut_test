@@ -12,6 +12,8 @@ runtime_environments:
 
 managers:
   - name: update
+    configuration:
+      labels: [bot]
   - name: thoth-advise
     configuration:
       labels: [bot, kebechet]
