@@ -18,11 +18,11 @@
     "default": {
         "click": {
             "hashes": [
-                "sha256:353f466495adaeb40b6b5f592f9f91cb22372351c84caeb068132442a4518ef3",
-                "sha256:410e932b050f5eed773c4cda94de75971c89cdb3155a72a0831139a79e5ecb5b"
+                "sha256:396ffe2561331b7b68e2780a088f9be3d41c33cbfb6e5911e2178533ea6d31da",
+                "sha256:8bea8164a4fd3b687b4c025316a84f38f2e2ee115cd8a68dd423356283e25805"
             ],
             "index": "pypi",
-            "version": "==8.0.3"
+            "version": "==1.0"
         }
     },
     "develop": {}
